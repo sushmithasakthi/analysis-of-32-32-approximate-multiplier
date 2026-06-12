@@ -1,6 +1,6 @@
 # 32×32 Approximate Multiplier — FPGA Implementation
 
-A hardware-efficient 32×32 signed multiplier using approximate computing techniques, implemented on the **Xilinx Artix-7 FPGA**. Designed for error-tolerant applications such as DSP, image processing, and machine learning accelerators.
+A hardware-efficient 32×32 signed multiplier using approximate computing techniques, implemented on the **Xilinx Artix-7 FPGA** and comparing with **Basys-3**. Designed for error-tolerant applications such as DSP, image processing, and machine learning accelerators.
 
 ---
 
