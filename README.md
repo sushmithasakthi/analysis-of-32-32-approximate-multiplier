@@ -42,7 +42,7 @@ Output:   product [63:0] — 64-bit result
 
 **Block Diagram:**
 
-![Block Diagram](main/Block_Diagram.png)
+![Block Diagram](main/block_diagram.png)
 
 The `multiplier_32x32` module implements a fully registered Booth multiplication pipeline in Verilog HDL with the following internal registers:
 
@@ -100,7 +100,7 @@ Functional simulation confirms correct output generation and stable operation un
 
 > ⚠️ ~73% of total power is consumed by I/O resources. Junction temperature exceeds safe operating limits — thermal optimization is required.
 
-![Power Report](results/power_report.png)
+![Power Report](results/power_analysis.png)
 
 ---
 
@@ -127,6 +127,7 @@ Functional simulation confirms correct output generation and stable operation un
 
 > Extremely low LUT utilization demonstrates the area savings achieved through approximation techniques.
 
+![area](results/area.png)
 ![Utilization Report](results/utility.png)
 
 ---
