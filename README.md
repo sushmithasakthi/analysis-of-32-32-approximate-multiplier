@@ -37,9 +37,7 @@ This project investigates approximate multiplication techniques and evaluates th
 
 ---
 Block Diagram
-
-Insert the block diagram image below:
-
+ 
 [main/Block Diagram.png]
 ---
 The multiplier_32x32 module implements a 32-bit signed Booth multiplication algorithm in Verilog HDL.
@@ -124,7 +122,7 @@ Extremely low LUT utilization.
 Efficient hardware implementation.
 Significant area savings achieved through approximation techniques.
 Utilization Report Screenshot
-results/utilization_report.png
+results/utility.png
 Result Analysis
 
 The proposed approximate multiplier successfully demonstrates:
