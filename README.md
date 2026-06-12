@@ -42,7 +42,7 @@ Output:   product [63:0] — 64-bit result
 
 **Block Diagram:**
 
-![Block Diagram](main/block_diagram.png)
+![Block Diagram](main/block_diagram)
 
 The `multiplier_32x32` module implements a fully registered Booth multiplication pipeline in Verilog HDL with the following internal registers:
 
@@ -76,15 +76,6 @@ The design uses **Booth's Radix-2 Algorithm** over 32 iterative cycles:
 
 ---
 
-## Simulation Results
-
-Functional simulation confirms correct output generation and stable operation under all tested input conditions.
-
-**Simulation Waveform:**
-
-![Simulation Waveform](results/waveform.png)
-
----
 
 ## Performance Analysis
 
